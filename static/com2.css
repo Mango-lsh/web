@@ -1,0 +1,136 @@
+header {
+    display: inline-block;
+    width: 1920px;
+    height: 40px;
+    background-color: darkseagreen;
+}
+
+.com-opt {
+    padding-right: 1.8rem;
+    color:white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    /*去掉默认的下拉三角*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: transparent;
+
+}
+
+
+
+div.area1{
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    vertical-align:middle;
+
+
+}
+
+div.botton-area1{
+    display: inline-block;
+    width: 600px;
+    height: 40px;
+    background-color: whitesmoke;
+    display: inline-block;
+
+}
+
+div.area2{
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    vertical-align:middle;
+}
+
+div.botton-area2{
+    display: inline-block;
+    width: 600px;
+    height: 40px;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+
+div.area3{
+
+    width: 1205px;
+    height: 230px;
+    background-color: white;
+    overflow: auto;
+}
+
+div.botton-area3{
+    display: inline-block;
+    width: 1205px;
+    height: 40px;
+    background-color:whitesmoke;
+}
+
+
+h5{
+    color:black;
+    margin-left: 10px;
+    line-height: 15px;
+}
+
+p{
+    font-size: 13px;
+}
+
+div.area4{
+    height: 230px ;
+    width: 1205px;
+    position:relative ;
+    top: -185px;
+    background-color: white;
+    overflow: auto
+}
+
+button{
+    color: #414141;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-color: transparent;
+    font-size: 15px;
+}
+
+
+
+button:active{
+    background-color:darkseagreen;
+}
+
+table{
+    width: 1205px;
+    border-spacing: 0;
+
+}
+
+table.docu td{
+
+    border-bottom: solid 1px gray ;
+
+
+}
+table.docu th{
+    border-right: solid 2px gray;
+    border-bottom: solid 2px gray;
+
+
+
+}
+
+input[type="submit" i]{
+    background-color: transparent;
+    color: mediumseagreen;
+    font-size: 10px;
+    border: transparent;
+}
